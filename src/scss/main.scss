@@ -1,3 +1,42 @@
-@use "variables" as * ;
-@use "globals" as *;
-@use 'colors' as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 86px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+.container {
+  max-width: 1174px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+.bactop {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 10;
+  border-radius: 50%;
+}

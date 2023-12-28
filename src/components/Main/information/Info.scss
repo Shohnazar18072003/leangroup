@@ -1,0 +1,104 @@
+.info {
+  padding-top: 40px;
+  .content {
+    width: 100%;
+
+    background-image: url(../../../assets/images/info-img.png);
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 45px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 24px 20px 36px;
+    h1 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      color: #2c2d2e;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px; /* 125% */
+      p {
+        color: #ef7c00;
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H1 */
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+      }
+    }
+    .text {
+      max-width: 400px;
+      color: #2c2d2e;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 133.333% */
+      padding: 16px 0 24px;
+    }
+    form {
+      max-width: 500px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      input {
+        border-radius: 0px 4px 4px 0px;
+        border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+        background: var(--main-color-bg, #fff);
+        padding: 11px 12px;
+        margin-left: 40px;
+        outline: none;
+      }
+      .input {
+        position: relative;
+        img {
+          position: absolute;
+          border-radius: 4px 0 0 4px;
+          left: 0;
+          top: 0;
+        }
+      }
+      .input2 {
+        position: relative;
+        img {
+          position: absolute;
+          border-radius: 4px 0 0 4px;
+          left: 0;
+          top: 0;
+        }
+      }
+      textarea {
+        outline: none;
+        resize: none;
+        border-radius: 4px;
+        border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+        background: var(--main-color-bg, #fff);
+        padding: 12px;
+      }
+      button {
+        border-radius: 4px;
+        background: #ef7c00;
+        color: var(--text-color-text-contrast, #fff);
+        text-align: center;
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* fontControl */
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 133.333% */
+        padding: 10px 20px;
+      }
+    }
+  }
+}

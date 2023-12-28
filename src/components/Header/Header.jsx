@@ -1,46 +1,37 @@
-import React from 'react'
-import './Header.scss'
-
-import Logo from "../../assets/images/logo.png";
+import "./Header.scss";
+import { logo } from "../../assets";
 
 const Header = () => {
   return (
     <header>
-      <nav>
-        <div className="container">
-          <div className="nav-items">
-            <img src={Logo} alt="img" />
-            <div className="nav-item">
-              <a href="#">Продукция</a>
-              <a href="#">Сертификаты</a>
-              <a href="#">Наша команда</a>
-              <a href="#">О нас</a>
-              <a href="#">Новости</a>
-              <a href="#">Вакансии</a>
-              <a href="#">Контакты</a>
+      <div className="container">
+        <nav>
+          <a href="#" className="logo">
+            <img src={logo} alt="img" />
+          </a>
+          <div className="links">
+            <a href="#">Продукция</a>
+            <div className="brother">
+              <a href="#">Ламинатные тубы</a>
+              <a href="#">Экструзионные тубы</a>
+              <a href="#">Другая упаковка</a>
             </div>
-            <div className="btn-ham">
-              <button>
-                <p>RU</p>
-                <p>|</p>
-                <p>EN</p>
-              </button>
-              <div className="hamburger">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
-                </svg>
-              </div>
-            </div>
+            <a href="#">Сертификаты</a>
+            <a href="#">Наша команда</a>
+            <a href="#">О нас</a>
+            <a href="#">Новости</a>
+            <a href="#">Вакансии</a>
+            <a href="#">Контакты</a>
           </div>
-        </div>
-      </nav>
+          <div className="language">
+            <p>
+              <b>RU</b>/EN
+            </p>
+          </div>
+        </nav>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

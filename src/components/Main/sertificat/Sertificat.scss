@@ -1,0 +1,42 @@
+.sertificat {
+  .content {
+    h1 {
+      color: #2c2d2e;
+      text-align: center;
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px; /* 125% */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      padding-top: 104px;
+      padding-bottom: 69px;
+      p {
+        color: #ef7c00;
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H1 */
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+      }
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 16px 0;
+    }
+  }
+}

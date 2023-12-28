@@ -1,0 +1,98 @@
+footer {
+  background: rgba(0, 16, 61, 0.06);
+  padding: 30px 0;
+  .line {
+    height: 1px;
+    background: #919399;
+    margin: 10px 0 16px;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+
+  .cards2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+    .card {
+      h1 {
+        color: var(--color-text, #2c2d2e);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H2 */
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 116.667% */
+        padding-bottom: 24px;
+      }
+      p {
+        color: var(--color-text, #2c2d2e);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H3 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        & + p {
+          padding-top: 12px;
+        }
+      }
+      a {
+        display: block;
+        color: var(--color-text, #2c2d2e);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H3 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        & + a {
+          padding-top: 12px;
+        }
+      }
+      h2 {
+        color: var(--color-primary, #ef7c00);
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* H3 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+      }
+    }
+  }
+  .bottom {
+    max-width: 336px;
+    padding-top: 46px;
+    p {
+      color: var(--color-text-secondary, #919399);
+      font-feature-settings: "clig" off, "liga" off;
+
+      /* fontFootnote */
+      font-family: Montserrat;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 13px; /* 100% */
+    }
+  }
+}
